@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-homework",
+  "version": "1.0.0",
+  "description": "my hw",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strangeys/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Nick Malone",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Strangeys/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/Strangeys/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
